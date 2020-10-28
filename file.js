@@ -173,7 +173,7 @@ initiate.onclick = function(){
                 return true;
         }else if(initiate.innerHTML === "Start Over"){
                 window.location.reload()
-        }else if(invalid01.innerHTML != "" || invalid02.innerHTML != ""){
+        }else if(invalid01.innerHTML != "" && invalid02.innerHTML != ""){
                 invalid01.style.display = "block";
                 invalid02.style.display = "none";
                 invalid01.innerHTML = 'Player One and Two, please enter valid usernames';
