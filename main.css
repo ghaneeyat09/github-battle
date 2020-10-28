@@ -129,3 +129,45 @@ h1{
  #scoreTwo{
     display: none;
 }
+/*.input01{
+    text-align: center;
+}*/
+.input01 .message01{
+    font-family: sans-serif;
+    padding-top: 3px;
+    font-weight: 100;
+    font-size: 12px;
+    color: red;
+    text-align: center;
+}
+.input02 .message02{
+    font-family: sans-serif;
+    padding-top: 3px;
+    font-weight: 100;
+    font-size: 12px;
+    color: red;
+    text-align: center;
+}
+.first-player{
+     font-size: 30px;
+     font-weight: bold;
+}
+.second-player{
+     font-size: 30px;
+     font-weight: bold;
+}
+.main-container{
+     display: flex;
+}
+.invalid01{
+    display: none;
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+.invalid02{
+    display: none;
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
